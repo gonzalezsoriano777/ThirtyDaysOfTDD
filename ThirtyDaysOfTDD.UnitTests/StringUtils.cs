@@ -18,12 +18,10 @@ namespace ThirtyDaysOfTDD.UnitTests
 
             for(int charIdx = 0; charIdx < stringToCheckAsCharacterArray.GetUpperBound(0); charIdx++)
             {
-
                 if (stringToCheckAsCharacterArray[charIdx] == characterToCheckFor)
                 {
                     numberOfOccurences++;
                 }
-
             }
 
             return numberOfOccurences;
