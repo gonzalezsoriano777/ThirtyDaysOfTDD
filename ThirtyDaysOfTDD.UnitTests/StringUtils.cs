@@ -14,6 +14,20 @@ namespace ThirtyDaysOfTDD.UnitTests
 
             var characterToCheckFor = Char.Parse(characterToScanFor);
 
+            int numberOfOccurences = 0;
+
+            for(int charIdx = 0; charIdx < stringToCheckAsCharacterArray.GetUpperBound(0); charIdx++)
+            {
+
+                if (stringToCheckAsCharacterArray[charIdx] == characterToCheckFor)
+                {
+                    numberOfOccurences++;
+                }
+
+            }
+
+            return numberOfOccurences;
+
         }
     }
 }
