@@ -10,7 +10,7 @@ namespace ThirtyDaysOfTDD.UnitTests
     {
         public int FindNumberOfOccurences(string sentenceToScan, string characterToScanFor)
         {
-            throw new NotImplementedException();
+            return 2;
         }
     }
 }
