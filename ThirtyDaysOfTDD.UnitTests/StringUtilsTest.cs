@@ -25,7 +25,6 @@ namespace ThirtyDaysOfTDD.UnitTests
             int result = stringUtils.FindNumberOfOccurences(sentenceToScan, characterToScanFor);
 
             Assert.AreEqual(expectedResult, result);
-
         }
 
         [Test]
@@ -42,7 +41,6 @@ namespace ThirtyDaysOfTDD.UnitTests
             int result = stringUtils.FindNumberOfOccurences(sentenceToScan, characterToScanFor);
 
             Assert.AreEqual(expectedResult, result);
-
         }
     }
 }
