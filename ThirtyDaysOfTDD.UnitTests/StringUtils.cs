@@ -10,7 +10,10 @@ namespace ThirtyDaysOfTDD.UnitTests
     {
         public int FindNumberOfOccurences(string sentenceToScan, string characterToScanFor)
         {
-            return 2;
+            var stringToCheckAsCharacterArray = sentenceToScan.ToCharArray();
+
+            var characterToCheckFor = Char.Parse(characterToScanFor);
+
         }
     }
 }
