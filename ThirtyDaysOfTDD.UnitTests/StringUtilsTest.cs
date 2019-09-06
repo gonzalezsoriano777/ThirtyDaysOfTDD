@@ -26,7 +26,6 @@ namespace ThirtyDaysOfTDD.UnitTests
 
             Assert.AreEqual(expectedResult, result);
         }
-
         [Test]
         public void ShouldBeAbleToCountNumberOfLettersInComplexSentence()
         {
