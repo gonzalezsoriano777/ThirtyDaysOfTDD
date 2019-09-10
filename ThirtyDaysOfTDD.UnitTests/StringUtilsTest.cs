@@ -44,9 +44,14 @@ namespace ThirtyDaysOfTDD.UnitTests
         }
 
         [Test]
-        [ExpectedExceptions(typeof(ArgumentException))]
         public void ShouldGetAnArgumentExceptionWhenCharacterToScanForIsLargerThanOneCharacter()
         {
+
+            Assert.Throws<Exception>(() =>
+            {
+
+            });
+
             var sentenceToScan = "This test should throw an exception";
 
             var characterToScanFor = "xx";
