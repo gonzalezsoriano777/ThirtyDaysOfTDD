@@ -7,9 +7,18 @@ using NUnit.Framework;
 
 namespace ThirtyDaysOfTDD.UnitTests
 {
-    [TestFixture]
+   [TestFixture]
     public class StringUtilsTest
     {
+
+        private StringUtils _stringUtils;
+
+        [SetUp]
+        public void SetUpStringUtilsTest()
+        {
+            _stringUtils = new StringUtils();
+        }
+
         [Test]
         public void ShouldBeAbleToCountNumberOfLettersInSimpleSentence()
         {
@@ -20,9 +29,7 @@ namespace ThirtyDaysOfTDD.UnitTests
 
             var expectedResult = 2;
 
-            var stringUtils = new StringUtils();
-
-            int result = stringUtils.FindNumberOfOccurences(sentenceToScan, characterToScanFor);
+            int result = _stringUtils.FindNumberOfOccurences(sentenceToScan, characterToScanFor);
 
             Assert.AreEqual(expectedResult, result);
         }
@@ -36,9 +43,7 @@ namespace ThirtyDaysOfTDD.UnitTests
 
             var expectedResult = 5;
 
-            var stringUtils = new StringUtils();
-
-            int result = stringUtils.FindNumberOfOccurences(sentenceToScan, characterToScanFor);
+            int result = _stringUtils.FindNumberOfOccurences(sentenceToScan, characterToScanFor);
 
             Assert.AreEqual(expectedResult, result);
         }
@@ -50,10 +55,8 @@ namespace ThirtyDaysOfTDD.UnitTests
             var sentenceToScan = "This test should throw an exception";
 
             var characterToScanFor = "xx";
-
-            var stringUtils = new StringUtils();
-              
-            Assert.Throws<System.ArgumentException>(() => stringUtils.FindNumberOfOccurences(sentenceToScan, characterToScanFor));
+             
+            Assert.Throws<System.ArgumentException>(() => _stringUtils.FindNumberOfOccurences(sentenceToScan, characterToScanFor));
 
         }
     }
