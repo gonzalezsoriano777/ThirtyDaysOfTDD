@@ -44,7 +44,6 @@ namespace ThirtyDaysOfTDD.UnitTests
         }
 
         [Test]
-        [ExpectedException(typeof(ArgumentException))]
         public void ShouldGetAnArgumentExceptionWhenCharacterToScanForIsLargerThanOneCharacter()
         {
 
@@ -54,8 +53,7 @@ namespace ThirtyDaysOfTDD.UnitTests
 
             var stringUtils = new StringUtils();
               
-            stringUtils.FindNumberOfOccurences(sentenceToScan, characterToScanFor);
-
+            Assert.Throws<System.ArgumentException>(() => stringUtils.FindNumberOfOccurences(sentenceToScan, characterToScanFor));
 
         }
     }
