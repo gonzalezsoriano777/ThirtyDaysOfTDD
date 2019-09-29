@@ -13,7 +13,7 @@ namespace ThirtyDaysOfTDD.UnitTests
 
         private StringUtils _stringUtils;
 
-        [SetUp]
+        [OneTimeSetUp]
         public void SetUpStringUtilsTest()
         {
             _stringUtils = new StringUtils();
