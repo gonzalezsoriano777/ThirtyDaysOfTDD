@@ -57,8 +57,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="StringUtils.cs" />
-    <Compile Include="StringUtilsTest.cs" />
+    <Compile Include="30DaysProgress\StringUtils.cs" />
+    <Compile Include="30DaysProgress\StringUtilsTest.cs" />
+    <Compile Include="Dependecy Injection Practice\BusinessService-BetterExample.cs" />
+    <Compile Include="Dependecy Injection Practice\BusinessService-GoodExample.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
