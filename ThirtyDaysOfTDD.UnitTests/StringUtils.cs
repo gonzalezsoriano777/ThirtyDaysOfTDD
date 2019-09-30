@@ -10,7 +10,6 @@ namespace ThirtyDaysOfTDD.UnitTests
     {
         public int FindNumberOfOccurences(string sentenceToScan, string characterToScanFor)
         {
-
             if (characterToScanFor.Length != 1)
             {
                 throw new ArgumentException();
