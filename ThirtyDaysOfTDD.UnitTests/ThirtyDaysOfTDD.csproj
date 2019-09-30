@@ -59,8 +59,9 @@
   <ItemGroup>
     <Compile Include="30DaysProgress\StringUtils.cs" />
     <Compile Include="30DaysProgress\StringUtilsTest.cs" />
-    <Compile Include="DependecyInjectionPractice\BusinessServiceImproved.cs" />
-    <Compile Include="DependecyInjectionPractice\BusinessServiceStatic.cs" />
+    <Compile Include="DependecyInjectionPractice\BusinessService-Improved.cs" />
+    <Compile Include="DependecyInjectionPractice\BusinessService-MostImproved.cs" />
+    <Compile Include="DependecyInjectionPractice\BusinessService-Static.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
