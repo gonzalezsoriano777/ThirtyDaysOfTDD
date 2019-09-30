@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.705
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThirtyDaysOfTDD", "ThirtyDaysOfTDD.UnitTests\ThirtyDaysOfTDD.csproj", "{847031B5-8FC5-478C-9972-E8AE706360AD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TddStore.Core", "TddStore.Core\TddStore.Core.csproj", "{3A89C760-A745-4CEE-AA7F-D29519581DAF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{847031B5-8FC5-478C-9972-E8AE706360AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{847031B5-8FC5-478C-9972-E8AE706360AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{847031B5-8FC5-478C-9972-E8AE706360AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A89C760-A745-4CEE-AA7F-D29519581DAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A89C760-A745-4CEE-AA7F-D29519581DAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A89C760-A745-4CEE-AA7F-D29519581DAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A89C760-A745-4CEE-AA7F-D29519581DAF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
