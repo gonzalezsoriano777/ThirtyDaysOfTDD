@@ -7,13 +7,13 @@ using NUnit.Framework;
 
 namespace ThirtyDaysOfTDD.UnitTests.Dependecy_Injection_Practice
 {
-    public class BusinessService     
+    public class BusinessServiceImproved
     {
         private IDataStoreProvider _dataStoreProvider;
         private ILoggingProvider _loggingProvider;
         private IWebServiceProvider _webServiceProvider;
 
-        public BusinessService(IDataStoreProvider dataStoreProvider,
+        public BusinessServiceImproved(IDataStoreProvider dataStoreProvider,
             ILoggingProvider loggingProvider, IWebServiceProvider webServiceProvider)
         {
             _dataStoreProvider = dataStoreProvider;
