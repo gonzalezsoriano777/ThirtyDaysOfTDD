@@ -51,6 +51,11 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TddStore\OrderServiceTests.cs" />
+    <Compile Include="TddStore\Store.Core\IOrderService.cs" />
+    <Compile Include="TddStore\Store.Core\Order.cs" />
+    <Compile Include="TddStore\Store.Core\OrderService.cs" />
+    <Compile Include="TddStore\Store.Core\ShoppingCart.cs" />
+    <Compile Include="TddStore\Store.Core\ShoppingCartItem.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
