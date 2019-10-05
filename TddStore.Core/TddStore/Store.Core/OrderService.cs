@@ -13,6 +13,7 @@ namespace TddStore.Core.TddStore
 
         public OrderService()
         {
+
         }
 
         public OrderService(IOrderDataService orderDataService)
