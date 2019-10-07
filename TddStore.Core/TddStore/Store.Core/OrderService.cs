@@ -20,10 +20,13 @@ namespace TddStore.Core.TddStore
             _orderDataService = orderDataService;
         }
 
-        public object PlaceOrder(Guid customerId, ShoppingCart shoppingCart)
+        public Guid PlaceOrder(Guid customerId, ShoppingCart shoppingCart)
         {
             var order = new Order();
-            return _orderDataService.Save(order);
+
+            //return _orderDataService.Save(order);
+
+            return Guid.NewGuid();
         }
     }
 }
