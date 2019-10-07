@@ -1,12 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using NUnit.Framework;
 using TddStore.Core;
 using TddStore.Core.TddStore;
 using TddStore.Core.TddStore.Store.Core;
+using TddStore.Core.TddStore.Store.Core.OrderException;
 using Telerik.JustMock;
 
 namespace ThirtyDaysOfTDD.UnitTests.TddStore
@@ -36,6 +33,26 @@ namespace ThirtyDaysOfTDD.UnitTests.TddStore
 
 
            //Assert.AreEqual(expectedOrderId, result);
+
+        }
+
+        [Test]   
+        public void WhenAUserAttemptsToOrderAnItemWithAQuantityOfZeroThrowInvalidOrderException()
+        {
+            Assert.That<InvalidOrderException>( =>  ());
+
+
+            // Arrange
+
+
+
+            // Act
+
+
+
+            // Assert
+
+
 
         }
 
