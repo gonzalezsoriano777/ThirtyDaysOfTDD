@@ -39,7 +39,6 @@ namespace ThirtyDaysOfTDD.UnitTests.TddStore
         [Test]   
         public void WhenAUserAttemptsToOrderAnItemWithAQuantityOfZeroThrowInvalidOrderException()
         {
-            Assert.That<InvalidOrderException>( =>  ());
 
 
             // Arrange
@@ -52,7 +51,7 @@ namespace ThirtyDaysOfTDD.UnitTests.TddStore
 
             // Assert
 
-
+            Mock.Assert(orderDataService);
 
         }
 
