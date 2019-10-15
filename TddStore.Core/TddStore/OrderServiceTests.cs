@@ -31,7 +31,6 @@ namespace ThirtyDaysOfTDD.UnitTests.TddStore
 
             var result = orderService.PlaceOrder(customerId, shoppingCart);
 
-           //Assert.AreEqual(expectedOrderId, result)
         }
 
         [Test]   
